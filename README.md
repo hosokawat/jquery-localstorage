@@ -17,7 +17,7 @@ Read:
 ```javascript
 value = $.localStorage('key');
 ```
-Read all (values.constructor == Storage): 
+Read all (values.constructor is Storage): 
 ```javascript
 values = $.localStorage();
 ```
