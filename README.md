@@ -1,6 +1,6 @@
-#jquery-localstrage
+#jquery-localstorage
 
-A simple, lightweight jQuery plugin for reading, writing and deleting html5 local strage
+A simple, lightweight jQuery plugin for reading, writing and deleting html5 local storage
 
 ##Installation
 
