@@ -5,7 +5,7 @@
   var localStorage = window.localStorage;
   $.enableLocalStorage  =   localStorage ? true : false;
 
-  $.removeLocalStorage = function (key) {
+  var remove = $.removeLocalStorage = function (key) {
     if (localStorage) localStorage.removeItem(key);
     return;
   };
@@ -29,6 +29,17 @@
       if (localStorage[key]) result = localStorage.getItem(key);
     }
     return result;
+  };
+
+  var io = $.localStorage.io = function (key) {
+    return {read : function () {
+      return config(key);
+    }, write : function (value) {
+      return config(key, value);
+    }, remove : function () {
+      return remove(key);
+    }, key : key
+    };
   };
 
 })(jQuery);
