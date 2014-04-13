@@ -21,7 +21,7 @@ Read all (values.constructor is Storage):
 ```javascript
 values = $.localStorage();
 ```
-Enable localStorage value: 
+Initialization result: 
 ```javascript
-boolean = $.enableLocalStorage();
+result = $.enableLocalStorage();
 ```
