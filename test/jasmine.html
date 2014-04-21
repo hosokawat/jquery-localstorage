@@ -30,9 +30,13 @@
             var io = $.localStorage.io('key3');
             expect(io.key).toBe('key3');
             expect(io.write('test3')).toBe('test3');
+            expect($.localStorage('key3')).toBe('test3');
             expect(io.read()).toBe('test3');
             expect(io.remove()).toBeUndefined();
             expect(io.read()).toBeUndefined();
+            io.key = 'key4';
+            expect(io.write('test4')).toBe('test4');
+            expect($.localStorage('key3')).toBe('test4');
             });
       });
     </script>
