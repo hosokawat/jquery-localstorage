@@ -46,3 +46,6 @@ Key:
 io = $.localStorage.io('key');
 io.key;
 ```
+
+##Jasmine Test
+[TestPage](http://hosokawat.github.io/jquery-localstorage/test/jasmine.html)

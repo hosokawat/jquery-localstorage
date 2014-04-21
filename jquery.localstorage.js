@@ -1,9 +1,9 @@
 /*
- * jQuery Local Storage Plugin v0.2 beta
+ * jQuery Local Storage Plugin v0.3 beta
  */
 (function ($) {
   var localStorage = window.localStorage;
-  $.enableLocalStorage  =   localStorage ? true : false;
+  $.support.localStorage = localStorage ? true : false;
 
   var remove = $.removeLocalStorage = function (key) {
     if (localStorage) localStorage.removeItem(key);
