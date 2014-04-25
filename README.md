@@ -23,7 +23,7 @@ values = $.localStorage();
 ```
 Initialization result: 
 ```javascript
-result = $.enableLocalStorage();
+result = $.support.localStorage;
 ```
 ##IO methods
 Save:
