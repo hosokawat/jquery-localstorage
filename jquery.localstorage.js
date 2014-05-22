@@ -3,6 +3,7 @@
  */
 (function ($) {
   var localStorage = window.localStorage;
+  var ioList = {};
   $.support.localStorage = localStorage ? true : false;
 
   var remove = $.removeLocalStorage = function (key) {
@@ -32,7 +33,7 @@
   };
 
   var io = $.localStorage.io = function (key) {
-    return {read : function () {
+    var result = {read : function () {
       return config(key);
     }, write : function (value) {
       return config(key, value);
@@ -40,6 +41,8 @@
       return remove(key);
     }, key : key
     };
+    ioList[key] = result;
+    return result;
   };
 
 })(jQuery);
