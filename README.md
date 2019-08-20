@@ -4,9 +4,9 @@ A simple, lightweight jQuery plugin for reading, writing and deleting html5 loca
 
 ## Installation
 ### CDN
-just put this tag:
+Just put this tag:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/hosokawat/jquery-localstorage/jquery.localstorage.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/hosokawat/jquery-localstorage/jquery.localstorage.min.js"></script>
 ```
 ### Download
 
