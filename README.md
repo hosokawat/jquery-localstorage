@@ -1,5 +1,6 @@
-# jquery-localstorage
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
+# jquery-localstorage
 A simple, lightweight jQuery plugin for reading, writing and deleting html5 local storage
 
 ## Installation
