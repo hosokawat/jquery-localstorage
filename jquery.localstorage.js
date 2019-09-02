@@ -1,5 +1,5 @@
 /*
- * jQuery Local Storage Plugin v0.3 beta
+ * jQuery Local Storage Plugin v1.0.0
  */
 (function ($) {
   var localStorage = window.localStorage;
