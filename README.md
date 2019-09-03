@@ -1,14 +1,21 @@
-#jquery-localstorage
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
+# jquery-localstorage
 A simple, lightweight jQuery plugin for reading, writing and deleting html5 local storage
 
-##Installation
+## Installation
+### CDN
+Just put this tag:
+```html
+<script src="https://cdn.jsdelivr.net/gh/hosokawat/jquery-localstorage/jquery.localstorage.min.js"></script>
+```
+### Download
 
 Include script after the jQuery library (unless you are packaging scripts somehow else):
 ```html
 <script src="/path/to/jquery.localstorage.js"></script>
 ```
-##Usage
+## Usage
 Save:
 ```javascript
 value = $.localStorage('key', 'value');
@@ -23,9 +30,9 @@ values = $.localStorage();
 ```
 Initialization result: 
 ```javascript
-result = $.enableLocalStorage();
+result = $.support.localStorage;
 ```
-##IO methods
+## IO methods
 Save:
 ```javascript
 io = $.localStorage.io('key');
@@ -47,5 +54,5 @@ io = $.localStorage.io('key');
 io.key;
 ```
 
-##Jasmine Test
+## Jasmine Test
 [TestPage](http://hosokawat.github.io/jquery-localstorage/test/jasmine.html)
