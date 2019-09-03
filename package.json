@@ -1,0 +1,34 @@
+{
+  "name": "jquery-localstorage",
+  "version": "1.0.0",
+  "description": "A simple, lightweight jQuery plugin for reading, writing and deleting html5 local storage",
+  "main": "jquery.localstorage.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hosokawat@github.com/hosokawat/jquery-localstorage.git"
+  },
+  "keywords": [
+    "jquery",
+    "localstorage"
+  ],
+  "author": "hosokawa.takahiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hosokawat/jquery-localstorage/issues"
+  },
+  "homepage": "https://github.com/hosokawat/jquery-localstorage#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "karma": "^4.3.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
