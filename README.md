@@ -1,5 +1,6 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![Build Status](https://travis-ci.org/hosokawat/jquery-localstorage.svg?branch=master)](https://travis-ci.org/hosokawat/jquery-localstorage)
+[![npm version](https://badge.fury.io/js/jquery-localstorage.svg)](https://badge.fury.io/js/jquery-localstorage)
 
 # jquery-localstorage
 A simple, lightweight jQuery plugin for reading, writing and deleting html5 local storage
