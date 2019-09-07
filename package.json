@@ -1,6 +1,6 @@
 {
   "name": "jquery-localstorage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, lightweight jQuery plugin for reading, writing and deleting html5 local storage",
   "main": "jquery.localstorage.js",
   "directories": {
