@@ -26,7 +26,8 @@
     // Read
     var result;
     if (localStorage) {
-      if (localStorage[key]) result = localStorage.getItem(key);
+      var lsValue = localStorage.getItem(key);
+      if (lsValue !== null) result = lsValue;
     }
     return result;
   };

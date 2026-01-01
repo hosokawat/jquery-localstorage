@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/.bin/karma start"
+    "test": "./node_modules/.bin/karma start --single-run --browsers ChromeHeadlessNoSandbox"
   },
   "repository": {
     "type": "git",
@@ -24,11 +24,13 @@
   },
   "homepage": "https://github.com/hosokawat/jquery-localstorage#readme",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.7.1"
   },
   "devDependencies": {
-    "karma": "^4.3.0",
-    "karma-jasmine": "^2.0.1",
-    "karma-phantomjs-launcher": "^1.0.4"
+    "karma": "^6.4.2",
+    "karma-jasmine": "^5.1.0",
+    "karma-chrome-launcher": "^3.2.0",
+    "puppeteer": "^21.0.0",
+    "jasmine-core": "^5.0.0"
   }
 }
